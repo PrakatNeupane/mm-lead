@@ -128,6 +128,16 @@ function App() {
             <InputLabel str="Lender" />
             <InputLabel str="LVR" />
           </div>
+          <div className="m-2 p-2 bg-white rounded-sm">
+            <div className="w-full border p-2 mb-2 bg-blue-300 text-white font-bold text-lg">
+              JB Summary
+            </div>
+            <InputLabel str="Total Debts (including secured)" />
+            <InputLabel str="Total Debts (only unsecured)" />
+            <InputLabel str="Number of creditors" />
+            <InputLabel str="Currently monthly repayment" />
+            <InputLabel str="Current monthly surplus" />
+          </div>
         </div>
       </div>
     </div>
